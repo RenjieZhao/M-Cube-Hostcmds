@@ -30,9 +30,9 @@ try:
     sock.connect(server_address)
     buf_len = 10240
     
-    base_phase_mat = io.loadmat('../one_element.mat')
+    base_phase_mat = io.loadmat('../15beam.mat')
 
-    codebook_size = 32
+    codebook_size = 15
 
     for beam_idx in range(0, codebook_size):
         # Send data
