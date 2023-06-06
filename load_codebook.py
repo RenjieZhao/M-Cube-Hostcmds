@@ -97,7 +97,7 @@ try:
     
     data['cmd'] = 'set_pattern'
     data['args'] = {'sector_idx': 15,
-        'sector_type': 1,
+        'sector_type': sector_type,
         'rf_modules_vec': rf_modules_vec,
         'mag':   "00000000000000000000000000600000",
         'phase': "00000000000000000000000000000000",
